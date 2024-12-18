@@ -59,8 +59,8 @@ export class Eletronico extends Produto {
   public visualizar() {
     super.visualizar();
     console.log(`Marca: ${this._marca}`);
-    console.log(`modelo: ${this._modelo}`);
-    console.log(`Garantia: ${this._garantia}`);
+    console.log(`Modelo: ${this._modelo}`);
+    console.log(`Garantia em Meses: ${this._garantia}`);
     console.log(`Voltagem: ${this._voltagem}`);
   }
 }
